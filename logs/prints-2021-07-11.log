@@ -1,0 +1,4 @@
+13:43:04.561 [TestNG-tests-3] DEBUG freemarker.cache - "spark/partials/author.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+13:43:04.562 [TestNG-tests-3] DEBUG freemarker.cache - "spark/partials/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+13:43:04.563 [TestNG-tests-3] DEBUG freemarker.cache - "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+13:43:04.568 [TestNG-tests-3] DEBUG freemarker.cache - "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.

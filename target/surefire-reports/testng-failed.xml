@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="End.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Validating NavigationBar(failed)" verbose="0">
+    <classes>
+      <class name="End.validationBAR">
+        <methods>
+          <include name="basenavigation"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- End.validationBAR -->
+    </classes>
+  </test> <!-- Validating NavigationBar(failed) -->
+  <test thread-count="5" parallel="tests" name="Homepage with Loginpage(failed)" verbose="0">
+    <classes>
+      <class name="End.HomePage">
+        <methods>
+          <include name="intialize"/>
+          <include name="basenavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- End.HomePage -->
+    </classes>
+  </test> <!-- Homepage with Loginpage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

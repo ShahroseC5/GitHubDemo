@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-11T13:42:45 EDT" name="Suite" finished-at="2021-07-11T13:43:04 EDT" duration-ms="18812">
+    <groups>
+    </groups>
+    <test started-at="2021-07-11T13:42:45 EDT" name="Validating Title" finished-at="2021-07-11T13:42:59 EDT" duration-ms="14018">
+      <class name="End.validationTitle">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:End.validationTitle@58c34bb3]" started-at="2021-07-11T13:42:45 EDT" name="intialize" finished-at="2021-07-11T13:42:59 EDT" duration-ms="13576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="basenavigation()[pri:0, instance:End.validationTitle@58c34bb3]" started-at="2021-07-11T13:42:59 EDT" name="basenavigation" finished-at="2021-07-11T13:42:59 EDT" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basenavigation -->
+        <test-method signature="gettingHeader()[pri:0, instance:End.validationTitle@58c34bb3]" started-at="2021-07-11T13:42:59 EDT" name="gettingHeader" finished-at="2021-07-11T13:42:59 EDT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingHeader -->
+      </class> <!-- End.validationTitle -->
+    </test> <!-- Validating Title -->
+    <test started-at="2021-07-11T13:42:45 EDT" name="Validating NavigationBar" finished-at="2021-07-11T13:42:59 EDT" duration-ms="14043">
+      <class name="End.validationBAR">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:End.validationBAR@14b030a0]" started-at="2021-07-11T13:42:45 EDT" name="intialize" finished-at="2021-07-11T13:42:59 EDT" duration-ms="13519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="basenavigation()[pri:0, instance:End.validationBAR@14b030a0]" started-at="2021-07-11T13:42:59 EDT" name="basenavigation" finished-at="2021-07-11T13:42:59 EDT" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basenavigation -->
+      </class> <!-- End.validationBAR -->
+    </test> <!-- Validating NavigationBar -->
+    <test started-at="2021-07-11T13:42:45 EDT" name="Homepage with Loginpage" finished-at="2021-07-11T13:43:04 EDT" duration-ms="18812">
+      <class name="End.HomePage">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:End.HomePage@1c7fd41f]" started-at="2021-07-11T13:42:45 EDT" name="intialize" finished-at="2021-07-11T13:42:58 EDT" duration-ms="13248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="basenavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:End.HomePage@1c7fd41f]" started-at="2021-07-11T13:42:59 EDT" name="basenavigation" data-provider="getdata" finished-at="2021-07-11T13:43:02 EDT" duration-ms="3664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestrict@user.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[w23432234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basenavigation -->
+        <test-method signature="basenavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:End.HomePage@1c7fd41f]" started-at="2021-07-11T13:43:02 EDT" name="basenavigation" data-provider="getdata" finished-at="2021-07-11T13:43:04 EDT" duration-ms="1751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrict@user.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[212313123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basenavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:End.HomePage@1c7fd41f]" started-at="2021-07-11T13:43:04 EDT" name="teardown" finished-at="2021-07-11T13:43:04 EDT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- End.HomePage -->
+    </test> <!-- Homepage with Loginpage -->
+  </suite> <!-- Suite -->
+</testng-results>

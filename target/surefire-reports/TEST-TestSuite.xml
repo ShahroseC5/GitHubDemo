@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="20.199" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="webdriver.chrome.driver" value="/Users/Chauhan/eclipse-workspace/End2End/EndtoEnd/src/main/java/resources/chromedriver-2"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/Chauhan/eclipse-workspace/End2End/EndtoEnd/target/test-classes:/Users/Chauhan/eclipse-workspace/End2End/EndtoEnd/target/classes:/Users/Chauhan/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/Chauhan/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/Chauhan/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/Chauhan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/Chauhan/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/Chauhan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/Chauhan/.m2/repository/commons-io/commons-io/2.10.0/commons-io-2.10.0.jar:/Users/Chauhan/.m2/repository/org/apache/logging/log4j/log4j-1.2-api/2.13.3/log4j-1.2-api-2.13.3.jar:/Users/Chauhan/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/Chauhan/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Chauhan/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Chauhan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Chauhan/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Chauhan/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Chauhan/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Chauhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Chauhan/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Chauhan/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Chauhan/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Chauhan/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Chauhan/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/Chauhan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/Chauhan/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/Chauhan/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/Chauhan/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/Chauhan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/Chauhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/Chauhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/Chauhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Chauhan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/Chauhan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/Chauhan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/Chauhan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/Chauhan/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/Chauhan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/Chauhan/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/Chauhan/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/Chauhan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/Chauhan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/Chauhan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/Chauhan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/Chauhan/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/Chauhan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/Chauhan/eclipse-workspace/End2End/EndtoEnd/target/surefire/surefirebooter10065296524025445377.jar /Users/Chauhan/eclipse-workspace/End2End/EndtoEnd/target/surefire 2021-07-11T13-42-43_695-jvmRun1 surefire6292994187138964492tmp surefire_018223109198249989294tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/Chauhan/eclipse-workspace/End2End/EndtoEnd/target/test-classes:/Users/Chauhan/eclipse-workspace/End2End/EndtoEnd/target/classes:/Users/Chauhan/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/Chauhan/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/Chauhan/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/Chauhan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/Chauhan/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/Chauhan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/Chauhan/.m2/repository/commons-io/commons-io/2.10.0/commons-io-2.10.0.jar:/Users/Chauhan/.m2/repository/org/apache/logging/log4j/log4j-1.2-api/2.13.3/log4j-1.2-api-2.13.3.jar:/Users/Chauhan/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/Chauhan/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Chauhan/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Chauhan/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Chauhan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Chauhan/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Chauhan/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Chauhan/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Chauhan/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Chauhan/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Chauhan/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Chauhan/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Chauhan/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Chauhan/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/Chauhan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/Chauhan/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/Chauhan/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/Chauhan/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/Chauhan/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/Chauhan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/Chauhan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/Chauhan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Chauhan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/Chauhan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/Chauhan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/Chauhan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/Chauhan/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/Chauhan/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/Chauhan/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/Chauhan/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/Chauhan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/Chauhan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/Chauhan/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/Chauhan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/Chauhan/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/Chauhan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/Chauhan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/Chauhan/eclipse-workspace/End2End/EndtoEnd"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/Chauhan/eclipse-workspace/End2End/EndtoEnd/target/surefire/surefirebooter10065296524025445377.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="Chauhan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chromeheadless"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/Chauhan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/h7/46cvxw5d40gcnkmczwzwxv_40000gn/T/"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="/Users/Chauhan/eclipse-workspace/End2End/EndtoEnd"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/Chauhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="basenavigation" classname="End.validationTitle" time="0.298">
+    <system-err><![CDATA[SSttaarrting SCtharrotmeDriver 90.0.t44i3n0g. 24C hr(o4mce6Ddr8i5v0ef0r8 79d0a.406.74d493206.e284e d(d4b7c665d5805a0eifd06n85g 75C9dh9ar14o6-m7erdDe9rf2i6sve/e8brer d9ad0nb.c07h.6-54h45e30a0ade.s2d/644 55(4943c9061@d-{r#8e45f20s9f/}0b)r8 a7ondnca4h -6p7horetda9 d2s3/2969e98
+Oenly dldobc7a6l5 5c0oanneecd6t55i9o9n1s- raerfe sal/lborwaendc.h
+P-lhea4esa4ed3 ss/e4e4 3h0t@t{0p@#s4{:2#/94}/2)9c} h)orn o omnep opdrorrti tv1 e16r35.81c08h3
+r
+OoOnmnliyluy m l.oloocrcagal/ lsecuri tcy-onconnescitdieornasti oanres  allowed.c
+oPnleansee csteie hotnts pasr:e //chroalmleodweriver.chforr soumgiguems.toirogn/dss. eo
+cnPu lrekieatesyep-i cnsoegn esC ihhdtreotrpmaest:Dir/oi/nvcseh rrf oomsrae dfsreu.igv
+geers.tcihornosm iounm .koeerpgi/nsge cCuhrriotmye-Dcroinvseir dsearfaet.
+ions for suggestions on keeping ChromeDriver safe.
+ChromeDriver wasC shtarrotmeedD rsiuvcceer swsafsu lslty.a
+rteCdh rsoumcecDersisvfeurl lwya.s
+ started successfully.
+[1626025371.151][WARNING]: This version of Chro[m1e6D2ri6v0e25r3 h7a1s. 1n5o2t] [bWARNING]: This version of Chromeen tested with Chrome veresDiroinv e9r1. 
+has not been tested with Chrome version 91.
+[1626025371.186][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jul 11, 2021 1:42:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 11, 2021 1:42:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 11, 2021 1:42:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="gettingHeader" classname="End.validationTitle" time="0.135"/>
+  <testcase name="basenavigation" classname="End.validationBAR" time="0.162"/>
+  <testcase name="basenavigation[nonrestrict@user.com, w23432234, text](1)" classname="End.HomePage" time="3.112"/>
+  <testcase name="basenavigation[restrict@user.com, 212313123, text](2)" classname="End.HomePage" time="1.75"/>
+</testsuite>
